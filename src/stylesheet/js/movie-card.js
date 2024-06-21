@@ -27,7 +27,7 @@ export function createMovieCard(movie) {
     <div class="meta-list">
       <div class="meta-item">
         <img
-          src="../../assets/icon/star.png"
+          src="./../assets/icon/star.png"
           width="20"
           height="20"
           loading="lazy"
@@ -41,7 +41,7 @@ export function createMovieCard(movie) {
     </div>
 
     <a
-      href="../../page/detail.html"
+      href="detail.html"
       class="card-btn"
       title="${title}"
       onclick="getMovieDetail(${id})"

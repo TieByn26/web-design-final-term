@@ -105,9 +105,9 @@ const heroBanner = function ({ results: movieList }) {
           <p class="genre">${genreList.asString(genre_ids)}</p>
           <p class="banner-text">${overview}</p>
 
-          <a href="../../page/detail.html" class="btn" onclick="getMovieDetail(${id})">
+          <a href="detail.html" class="btn" onclick="getMovieDetail(${id})">
             <img
-              src="../../assets/icon/play_circle.png"
+              src="./../assets/icon/play_circle.png"
               width="24"
               height="24"
               aria-hidden="true"

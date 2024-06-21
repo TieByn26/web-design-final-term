@@ -89,7 +89,7 @@ fetchDataFromServer(
           <div class="meta-list">
             <div class="meta-item">
               <img
-                src="../../assets/icon/star.png"
+                src="./../assets/icon/star.png"
                 width="20"
                 height="20"
                 alt="rating"

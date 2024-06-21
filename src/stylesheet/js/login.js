@@ -9,7 +9,7 @@ function handleLogin() {
 
   if (validAccounts[emailOrUsername] && validAccounts[emailOrUsername] === password) {
     //neu true qua movie
-    window.location.href = "../../page/movie.html";
+    window.location.href = "page/movie.html";
   } else {
     alert("Tài khoản hoặc mật khẩu không đúng. Vui lòng thử lại.");
   }

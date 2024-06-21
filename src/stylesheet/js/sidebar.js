@@ -30,16 +30,16 @@ export function sidebar() {
     
     <div class="sidebar-list">
       <p class="title">Language</p>
-      <a href="../../page/movie-list.html?active=language-en" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=en", "English")'>English</a>
-      <a href="../../page/movie-list.html?active=language-hi" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=hi", "Hindi")'>Hindi</a>
-      <a href="../../page/movie-list.html?active=language-bn" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=bn", "Bengali")'>Bengali</a>
-      <a href="../../page/movie-list.html?active=language-vi" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=vi", "Vietnamese")'>Viet Nam</a>
+      <a href="../page/movie-list.html?active=language-en" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=en", "English")'>English</a>
+      <a href="../page/movie-list.html?active=language-hi" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=hi", "Hindi")'>Hindi</a>
+      <a href="../page/movie-list.html?active=language-bn" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=bn", "Bengali")'>Bengali</a>
+      <a href="../page/movie-list.html?active=language-vi" menu-close class="sidebar-link" onclick='getMovieList("with_original_language=vi", "Vietnamese")'>Viet Nam</a>
     </div>
     
     <div class="sidebar-footer">
       <p class="copyright">Copyright 2024</p>
       <img
-        src="../../assets/icon/tmdb-logo.svg"
+        src="./../assets/icon/tmdb-logo.svg"
         width="130"
         height="17"
         alt="the movie database logo"
@@ -54,7 +54,7 @@ export function sidebar() {
     for (const [genreId, genreName] of Object.entries(genreList)) {
       const link = document.createElement("a");
       link.classList.add("sidebar-link");
-      link.setAttribute("href", `../../page/movie-list.html?active=genre-${genreId}`);
+      link.setAttribute("href", `../page/movie-list.html?active=genre-${genreId}`);
       link.setAttribute("menu-close", "");
       link.setAttribute(
         "onclick",
