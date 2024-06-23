@@ -1,6 +1,9 @@
+@import url();
 /* footer style */
 footer{
- background-color: rgb(255, 253, 253);
+    font-family:'DM Sans', sans-serif;;
+ /* background-color: rgb(255, 253, 253); */
+ 
 }
 /* top */
 .footer-top{
@@ -17,6 +20,7 @@ footer{
 }
 .footer_left p {
     color: black;
+    color:white;
   width: 300px;
 } 
 .footer_figure{
@@ -30,12 +34,14 @@ footer{
 /* center */
 .footer_center{
     color: black;
+    color:white;
     display: flex;
     gap: 200px;
 }
 .footer_center a:hover{
     font-weight: 700;
     scale: 1.1;
+    color: red;
 }
 /* right */
 .footer_right{
@@ -43,16 +49,20 @@ footer{
     gap: 15px;
     flex-direction: column;
     color: black;
+    color:white;
 }
 .footer_right input{
     width: 200px;
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 4px; 
 }
 .footer_right button{
-    border: 1px solid black;
+    border: 2px solid white;
     width: 50px;
     text-align: center;
-    background-color: gray;
+    background-color: white;
+    border-radius: 4px;
+    color:black;
 }
 .footer_right button:hover{
     scale: 1.1;
@@ -60,8 +70,8 @@ footer{
 
 /* bottom */
 .footer-bottomn{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 900;
     padding: 10px;
     text-align: center;
